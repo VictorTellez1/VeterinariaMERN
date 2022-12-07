@@ -16,8 +16,8 @@ function App() {
         <Route path="/" element={<AuthLayout/>}>
           <Route index element={<Login/>}/>
           <Route path="registrar" element={<Registrar/>}/>
-          <Route paht="olvide-password" element={<OlvidePassword/>}/>
-          <Route paht="confirmar-cuenta" element={<ConfirmarCuenta/>}/>
+          <Route path="olvide-password" element={<OlvidePassword/>}/>
+          <Route path="confirmar/:id" element={<ConfirmarCuenta/>}/>
 
         </Route>
       </Routes>
