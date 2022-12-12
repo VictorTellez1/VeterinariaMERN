@@ -9,7 +9,7 @@ const Header = () => {
             <h1 className='font-bold text-2xl text-indigo-200 text-center'>Administrador de Paciente de {''} <span className='text-white font-black'>Veterinaria</span></h1>
             <nav className='flex flex-col lg:flex-row mt-5 gap-4 lg:mt-0 item-center '>
                 <Link to="/admin" className='text-white text-sm uppercase font-bold'>Pacientes</Link>
-                <Link to="/admin" className='text-white text-sm uppercase font-bold'>Perfil</Link>
+                <Link to="/admin/perfil" className='text-white text-sm uppercase font-bold'>Perfil</Link>
                 <button
                     type="button"
                     className='text-white text-sm uppercase font-bold'
